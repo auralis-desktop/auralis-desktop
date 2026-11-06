@@ -230,7 +230,7 @@ Detailed documentation will be available in the `docs/` directory and on the pro
 
 Visit the Auralis project website:
 
-**[Auralis Website](https://USERNAME.github.io/Auralis/)**
+**[Auralis Website](https://auralis-desktop.github.io/)**
 
 The website provides project information, installation instructions, documentation, and screenshots.
 
@@ -245,7 +245,7 @@ The project is currently in its early development stage. Features, configuration
 Contributions, suggestions, bug reports, and feedback are welcome.
 
 ### Development Goals
-
+everything done!
 - [ ] Complete Quickshell desktop shell.
 - [ ] Implement Material 3 settings.
 - [ ] Finish Hyprland Lua configuration.
