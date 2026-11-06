@@ -1,0 +1,71 @@
+# Auralis -- Arch Linux package list
+# Format: package_name [aur] [optional]
+# Lines starting with # are comments
+
+# ── Window manager ────────────────────────────────────────────────────────────
+hyprland
+hyprlock
+hypridle
+hyprpaper
+xdg-desktop-portal-hyprland
+
+# ── Desktop shell ──────────────────────────────────────────────────────────────
+quickshell           aur
+
+# ── Qt 6 (Quickshell dependencies) ────────────────────────────────────────────
+qt6-base
+qt6-declarative
+qt6-wayland
+qt6-svg
+qt6-imageformats
+qt6-multimedia
+qt6-5compat
+
+# ── Audio ──────────────────────────────────────────────────────────────────────
+pipewire
+pipewire-pulse
+pipewire-alsa
+wireplumber
+
+# ── Network ────────────────────────────────────────────────────────────────────
+networkmanager
+
+# ── Bluetooth ──────────────────────────────────────────────────────────────────
+bluez
+bluez-utils
+
+# ── Brightness ─────────────────────────────────────────────────────────────────
+brightnessctl
+
+# ── Media ──────────────────────────────────────────────────────────────────────
+playerctl
+
+# ── Screenshot ─────────────────────────────────────────────────────────────────
+grim
+slurp
+
+# ── Clipboard ──────────────────────────────────────────────────────────────────
+wl-clipboard
+cliphist
+
+# ── Wallpaper ──────────────────────────────────────────────────────────────────
+swww                 aur
+
+# ── Polkit agent ──────────────────────────────────────────────────────────────
+hyprpolkitagent      aur
+
+# ── Fonts ──────────────────────────────────────────────────────────────────────
+noto-fonts
+noto-fonts-emoji
+ttf-jetbrains-mono-nerd
+ttf-material-symbols-variable-git   aur
+
+# ── Cursor ─────────────────────────────────────────────────────────────────────
+bibata-cursor-theme  aur
+
+# ── Utilities ──────────────────────────────────────────────────────────────────
+jq
+git
+curl
+unzip
+python

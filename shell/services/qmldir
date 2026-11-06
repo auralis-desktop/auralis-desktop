@@ -1,0 +1,10 @@
+module Services
+singleton Settings          1.0 Settings.qml
+singleton AudioService      1.0 AudioService.qml
+singleton NetworkService    1.0 NetworkService.qml
+singleton BluetoothService  1.0 BluetoothService.qml
+singleton BatteryService    1.0 BatteryService.qml
+singleton NotificationService 1.0 NotificationService.qml
+singleton MprisService      1.0 MprisService.qml
+singleton HyprlandService   1.0 HyprlandService.qml
+singleton WallpaperService  1.0 WallpaperService.qml

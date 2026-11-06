@@ -1,0 +1,9 @@
+module Panels
+TopBar              1.0 TopBar.qml
+AppLauncher         1.0 AppLauncher.qml
+QuickSettings       1.0 QuickSettings.qml
+NotificationCenter  1.0 NotificationCenter.qml
+Dashboard           1.0 Dashboard.qml
+PowerMenu           1.0 PowerMenu.qml
+WallpaperPicker     1.0 WallpaperPicker.qml
+SettingsWindow      1.0 SettingsWindow.qml

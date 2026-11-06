@@ -1,0 +1,2 @@
+module Themes
+singleton AuralisTheme 1.0 AuralisTheme.qml

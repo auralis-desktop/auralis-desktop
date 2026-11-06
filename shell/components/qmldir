@@ -1,0 +1,6 @@
+module Components
+MdIcon      1.0 MdIcon.qml
+MdButton    1.0 MdButton.qml
+MdSlider    1.0 MdSlider.qml
+MdSwitch    1.0 MdSwitch.qml
+Surface     1.0 Surface.qml
