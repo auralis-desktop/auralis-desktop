@@ -19,7 +19,7 @@
   --md-outline:            #79747E;
   --md-outline-variant:    #CAC4D0;
 
-  --font: 'Noto Sans', system-ui, sans-serif;
+  --font: 'DM Sans', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
   --radius-sm:  8px;
   --radius-md:  12px;
@@ -143,9 +143,10 @@ body {
 
 .hero-title {
   font-size: clamp(40px, 6vw, 72px);
-  font-weight: 300; line-height: 1.1;
+  font-weight: 200; line-height: 1.08;
   color: var(--md-on-surface);
   margin-bottom: 20px;
+  letter-spacing: -1px;
 }
 .gradient-text {
   background: linear-gradient(135deg, var(--md-primary), #4FC3F7);
@@ -171,8 +172,9 @@ body {
 .btn:hover { opacity: 0.88; }
 .btn:active { transform: scale(0.97); }
 .btn .material-symbols-outlined { font-size: 18px; }
-.btn-filled { background: var(--md-primary); color: var(--md-on-primary); }
-.btn-tonal  { background: var(--md-secondary-container); color: var(--md-secondary); }
+.btn-filled    { background: var(--md-primary); color: var(--md-on-primary); }
+.btn-tonal     { background: var(--md-secondary-container); color: var(--md-secondary); }
+.btn-outlined  { background: transparent; color: var(--md-primary); border: 1.5px solid var(--md-primary); }
 
 /* Hero preview (CSS-only mockup) */
 .hero-preview { display: flex; justify-content: center; }
